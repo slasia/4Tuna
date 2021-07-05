@@ -1,0 +1,40 @@
+@media screen and (max-width: 1280px) {
+
+	#imgLogo {
+		display: none;
+	}
+	#imgWelcome{
+		width: 200px !important;
+	}
+	#textoBienvenida{
+		margin-top:30px !important;
+	}
+}
+
+#textoBienvenida{
+	margin-top:50px;
+}
+
+.changeLang {
+	cursor: pointer;
+	font-size: 0.6em;
+	color: rgba(255, 255, 255, 0.35);
+	font-family: 'Gotham Rounded', sans-serif;
+}
+
+.changeLang:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.tituloMarca{
+	margin-bottom: 0;
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+    font-size: 54px;
+    line-height: 58px;	
+}
+
+#imgWelcome{
+	width: 23%;
+}
