@@ -16,7 +16,7 @@
 	<body class="is-preload">
 		<!-- Sidebar -->
 		<section id="sidebar">
-			<img id="imgLogo" src="images/4TUNA-Social.png" width="100%"/>
+			<img id="imgLogo" src="images/4TUNA-RGB.png"/>
 				<div class="inner">
 					<nav>
 						<ul>
@@ -29,7 +29,7 @@
 					</nav>
 				</div>
 				<div class="selectLang">
-					<span class="changeLang" id="es" href="#"> ESPANOL /</span>
+					<span class="changeLang" id="es" href="#"> ESPAÑOL /</span>
 					<span class="changeLang" id="en"> ENGLISH</span>
 				</div>
 			</section>
@@ -44,6 +44,7 @@
 							<img id="imgWelcome" src="images/4TUNA-Logo-Label.png"/>
 
 							<p id="textoBienvenida"></p>
+							<hr class=hrWelcome>
 							<!-- <ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul> -->
@@ -183,7 +184,7 @@
 							<p>Por favor llena el siguiente formulario y un miembro de nuestro equipo se contactará contigo.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form  name="contact" method="POST" data-netlify="true">
 										<div class="fields">
 											<div class="field half">
 												<label for="nombreYApellido">Nombre y apellido</label>

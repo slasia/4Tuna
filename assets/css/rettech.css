@@ -38,3 +38,19 @@
 #imgWelcome{
 	width: 23%;
 }
+
+#imgLogo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.hrWelcome{
+    background: linear-gradient(to right, #41E9CD, #58EB46);
+    height: 2px;
+}
+
+.selectLang{
+	margin-top: 20%;
+}
