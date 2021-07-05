@@ -184,7 +184,11 @@
 							<p>Por favor llena el siguiente formulario y un miembro de nuestro equipo se contactará contigo.</p>
 							<div class="split style1">
 								<section>
-									<form  name="contact" method="POST" data-netlify="true">
+									<form action="#" name="contact" data-netlify-recaptcha="true"  netlify-honeypot="bot-field"  method="POST" data-netlify="true">
+										<p class="hidden">
+											<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+										  </p>
+										
 										<div class="fields">
 											<div class="field half">
 												<label for="nombreYApellido">Nombre y apellido</label>
@@ -207,6 +211,7 @@
 												<textarea name="message" id="message" rows="5"></textarea>
 											</div>
 										</div>
+										<div data-netlify-recaptcha="true"></div>
 										<ul class="actions">
 											<li><a href="" class="button submit">Enviar mensaje</a></li>
 										</ul>
